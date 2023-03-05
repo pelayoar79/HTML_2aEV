@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio texto-02</title>
+    <style type="text/css">
+        .clase{
+            text-decoration: overline;
+        }
+
+        .pre{
+            font-size: 20px;
+            color: blue;
+        }
+        .code{
+            font-size: 25px;
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <pre>       Este es un
+        ejemplo     de      texto
+        preformateado.
+        La marca <a class="pre">pre</a>   preserva    espacios    en      blanco
+        y saltos en línea
+    </pre>
+    <p class="clase">La marca <strong class="pre">pre</strong> tambien es buena para mostrar codigo de programacion</p>
+    <pre>
+     for i = 1 to 10
+        print i
+    next i
+    </pre>
+    <p class="clase">También se puede usar la marca <strong  class="code">code</strong></p>
+    <code>
+    for i = 1 to 10
+        print i 
+    next i
+    </code>
+    <p class="clase">pero <strong class="code">code</strong> no respeta espaciado ni saltos de linea</p>
+</body>
+</html>
