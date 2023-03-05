@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio F_1</title>
+</head>
+
+<body>
+    <h1>Datos de cliente</h1>
+
+    <form>
+        <p><label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="Nombre"><br>
+        </p>
+        <p><label for="nif">NIF:</label><br>
+            <input type="text" id="nif" name="nif"><br><br>
+        </p>
+
+        <p><span class="etiqueta"> Tipo de Habitación:</span>
+            <br />
+            <input type="radio" name="tipo" value="I" />Individual
+            <br />
+            <input type="radio" name="tipo" value="D" />Double
+            <br />
+        </p>
+
+        <p>
+            <span class="etiqueta">Opciones</span>
+            <br/>
+
+            <input type="checkbox" name="desayuno" value="DH" id="desayuno" />
+            <label for="desayuno">Desayuno en la habitación</label>
+            <br/>
+
+            <input type="checkbox" name="jacuzzi" value="JZ" id="jacuzzi" />
+            <label for="Jacuzzi"></label>
+            <br/>
+
+            <input type="checkbox" name="wi-fi" value="WF" id="wi-fi" checked="checked"/>
+            <label for="wi-fi">Wi-Fi</label>
+            <br/>
+
+        </p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+    </form>
+</body>
+
+</html>
